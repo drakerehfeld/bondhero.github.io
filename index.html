@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: TensoBold;
+        src: url("fonts/Tenso-Bold.otf") format("opentype");
+      }
+      @font-face {
+        font-family: TensoRegular;
+        src: url("fonts/Tenso-Regular.otf") format("opentype");
+      }
+      body{
+        background:black;
+      }
+      .video-bg{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .header {
+        left: 0;
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+        z-index: 100;
+        color: #303440;
+        font-family: TensoBold;
+        font-size: 4em;
+      }
+      .desc {
+        left: 0;
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        z-index: 100;
+        color: #303440;
+        font-family: TensoRegular;
+        font-size: 1.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header">BRADBURY</h1>
+    <p class="desc">AI-Powered Financial Operations</p>
+    <video class="video-bg" autoplay playsinline muted loop>
+      <source src="water.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
